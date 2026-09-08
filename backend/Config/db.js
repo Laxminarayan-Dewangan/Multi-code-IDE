@@ -8,7 +8,7 @@ const connectDB = async()=>{
         // useNewurlParser:true,
         // useUnifieldTopology: true
        });
-        console.log("mongo connected");
+        console.log("mongo  db connected");
         
 
 
