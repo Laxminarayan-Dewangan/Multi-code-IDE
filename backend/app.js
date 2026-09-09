@@ -1,4 +1,5 @@
 var createError = require('http-errors');
+var bcrypt = require('bcryptjs');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
@@ -9,6 +10,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const connectDB = require('./Config/db');
 require('dotenv').config()
+
 connectDB();
 
 var app = express();

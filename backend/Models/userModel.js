@@ -9,7 +9,7 @@ email:{
     required: true,
     unique:true
 },
-pwd:{
+password:{
     type:String,
     required:true
 },
